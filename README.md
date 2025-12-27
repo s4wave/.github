@@ -1,10 +1,8 @@
-<h3 align="center">
+<p align="center">
   <a href="https://github.com/s4wave" target="_blank" rel="noopener noreferrer">
-    <img height="100" src="https://github.com/s4wave/.github/raw/master/images/s4wave-logo.png" alt="s4wave">
+    <img height="120" src="https://github.com/s4wave/.github/blob/master/images/s4wave-github.png?raw=true" alt="Spacewave">
   </a>
-  <br/>
-  &nbsp;
-</h3>
+</p>
 <h3 align="center">
   Next-generation Go and TypeScript tools.
 </h3>
@@ -64,7 +62,7 @@ Please open a [GitHub issue][github-issue] with any questions or feedback.
 Join the [OpenCode Discord][discord] to connect with the community.
 
 [github-issue]: https://github.com/s4wave/ocpipe/issues/new
-[discord]: https://opencode.ai/discord
+[discord]: https://discord.gg/opencode
 
 ## License
 
