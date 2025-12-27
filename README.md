@@ -3,16 +3,9 @@
     <img height="120" src="https://github.com/s4wave/.github/blob/master/images/s4wave-github.png?raw=true" alt="Spacewave">
   </a>
 </p>
-<h3 align="center">
-  Next-generation Go and TypeScript tools.
-</h3>
-<p align="center">
-  s4wave builds next-generation Go and TypeScript tools<br />
-  with a focus on type safety, testability, and developer experience.
-</p>
 <p align="center" style="margin-top: 5px">
   <a href="https://discord.gg/opencode">
-    <img src="https://img.shields.io/discord/1323070894973878292.svg?label=OpenCode&logo=Discord&colorB=7289da&style=for-the-badge" alt="OpenCode Discord" />
+    <img src="https://img.shields.io/discord/1391832426048651334.svg?label=OpenCode&logo=Discord&colorB=7289da&style=for-the-badge" alt="OpenCode Discord" />
   </a>
   &nbsp;
   <a href="https://discord.gg/KJutMESRsT">
