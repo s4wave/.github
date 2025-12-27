@@ -1,7 +1,16 @@
-<p align="center">
+<h3 align="center">
   <a href="https://github.com/s4wave" target="_blank" rel="noopener noreferrer">
-    <img height="120" src="https://github.com/s4wave/.github/blob/master/images/s4wave-github.png?raw=true" alt="Spacewave">
+    <img height="100" src="https://github.com/s4wave/.github/blob/master/images/s4wave-github.png?raw=true" alt="Spacewave">
   </a>
+  <br/>
+  &nbsp;
+</h3>
+<h3 align="center">
+  Next-generation Go and TypeScript tools.
+</h3>
+<p align="center">
+  Spacewave builds next-generation Go and TypeScript tools<br />
+  with a focus on type safety, testability, and developer experience.
 </p>
 <p align="center" style="margin-top: 5px">
   <a href="https://discord.gg/opencode">
