@@ -18,7 +18,7 @@
   </a>
 </p>
 
-## ocpipe
+## [ocpipe]
 
 Build LLM pipelines with [OpenCode] and [Zod].
 
