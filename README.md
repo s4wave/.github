@@ -1,16 +1,12 @@
 <h3 align="center">
   <a href="https://github.com/s4wave" target="_blank" rel="noopener noreferrer">
-    <img height="100" src="https://github.com/s4wave/.github/blob/master/images/s4wave-github.png?raw=true" alt="Spacewave">
+    <img height="100" src="https://github.com/s4wave/.github/blob/master/images/s4wave-github.png?raw=true" alt="spacewave">
   </a>
   <br/>
   &nbsp;
 </h3>
-<h3 align="center">
-  Next-generation Go and TypeScript tools.
-</h3>
 <p align="center">
-  Spacewave builds next-generation Go and TypeScript tools<br />
-  with a focus on type safety, testability, and developer experience.
+  next-gen go and typescript tools
 </p>
 <p align="center" style="margin-top: 5px">
   <a href="https://discord.gg/opencode">
@@ -22,53 +18,35 @@
   </a>
 </p>
 
-## Projects
+## ocpipe
 
-### ocpipe
+Build LLM pipelines with [OpenCode] and [Zod].
 
-[**ocpipe**][ocpipe] is an SDK for building LLM pipelines with [OpenCode] and [Zod].
-
-- **Type-safe signatures** - Define inputs and outputs with Zod schemas
-- **Modular architecture** - Compose modules into complex pipelines
-- **Built-in checkpointing** - Resume pipelines from any step
-- **OpenCode integration** - Leverage the OpenCode agent runtime
+- **Type-safe** Define inputs and outputs with Zod schemas
+- **Modular** Compose modules into complex pipelines
+- **Checkpoints** Resume from any step
+- **Multi-model** Works with 75+ providers through OpenCode
 
 ```typescript
-import { signature, field, module, Pipeline, createBaseState } from "ocpipe";
-
 const Greet = signature({
-  doc: "Generate a friendly greeting for the given name.",
-  inputs: { name: field.string("The name of the person to greet") },
-  outputs: { greeting: field.string("A friendly greeting message") },
+  doc: "Generate a greeting.",
+  inputs: { name: field.string("Name to greet") },
+  outputs: { greeting: field.string("The greeting") },
 });
-
-const pipeline = new Pipeline(
-  {
-    name: "hello-world",
-    defaultModel: { providerID: "anthropic", modelID: "claude-haiku-4-5" },
-  },
-  createBaseState,
-);
 
 const result = await pipeline.run(module(Greet), { name: "World" });
 ```
 
+[Get started][ocpipe] · [OpenCode Discord][discord]
+
 [ocpipe]: https://github.com/s4wave/ocpipe
 [OpenCode]: https://github.com/sst/opencode
 [Zod]: https://zod.dev
-
-## Support
-
-Please open a [GitHub issue][github-issue] with any questions or feedback.
-
-Join the [OpenCode Discord][discord] to connect with the community.
-
-[github-issue]: https://github.com/s4wave/ocpipe/issues/new
 [discord]: https://discord.gg/opencode
 
 ## License
 
-Projects are licensed under [MIT](https://opensource.org/licenses/MIT) or [Apache-2.0](https://opensource.org/licenses/Apache-2.0).
+[MIT](https://opensource.org/licenses/MIT) or [Apache-2.0](https://opensource.org/licenses/Apache-2.0)
 
 ---
 
