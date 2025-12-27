@@ -13,7 +13,7 @@
   with a focus on type safety, testability, and developer experience.
 </p>
 <p align="center" style="margin-top: 5px">
-  <a href="https://opencode.ai/discord">
+  <a href="https://discord.gg/opencode">
     <img src="https://img.shields.io/discord/1323070894973878292.svg?label=OpenCode&logo=Discord&colorB=7289da&style=for-the-badge" alt="OpenCode Discord" />
   </a>
   &nbsp;
