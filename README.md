@@ -1,22 +1,37 @@
-<h3 align="center">
-  <a href="https://github.com/s4wave" target="_blank" rel="noopener noreferrer">
-    <img height="100" src="https://github.com/s4wave/.github/blob/master/images/s4wave-github.png?raw=true" alt="spacewave">
+<h1 align="center">
+  <a href="https://github.com/s4wave/spacewave" target="_blank" rel="noopener noreferrer">
+    <img height="120" src="https://github.com/s4wave/.github/blob/master/images/s4wave-github.png?raw=true" alt="spacewave">
   </a>
-  <br/>
-  &nbsp;
-</h3>
+</h1>
+<h2 align="center">
+  Self-host anything in the browser.
+</h2>
 <p align="center">
-  next-gen go and typescript tools
+  Local-first apps on a portable Go + WebAssembly + TypeScript stack.<br/>
+  Open source. Cloud optional.
+</p>
+<p align="center">
+  <a href="https://github.com/s4wave/spacewave"><b>Get Spacewave →</b></a>
 </p>
 <p align="center" style="margin-top: 5px">
-  <a href="https://discord.gg/opencode">
-    <img src="https://img.shields.io/discord/1391832426048651334.svg?label=OpenCode&logo=Discord&colorB=7289da&style=for-the-badge" alt="OpenCode Discord" />
-  </a>
-  &nbsp;
   <a href="https://discord.gg/KJutMESRsT">
-    <img src="https://img.shields.io/discord/803825858599059487.svg?label=Aperture&logo=Discord&colorB=7289da&style=for-the-badge" alt="Aperture Discord" />
+    <img src="https://img.shields.io/discord/803825858599059487.svg?label=Join%20Discord&logo=Discord&colorB=7289da&style=for-the-badge" alt="Join Discord" />
   </a>
 </p>
+
+## 🚀 [Spacewave][spacewave]
+
+**Self-host anything in the browser.** Local-first apps with optional cloud
+sync, running natively or in the browser.
+
+- 🌐 **Local-first** Apps run in the browser against an OPFS-backed object store
+- ☁️ **Optional cloud** Fast cross-device sync and backup on Cloudflare
+- 🦫 **Portable** Same Go code runs as WASM in the browser and natively as a CLI
+- 🧩 **Composable** ObjectTypes, plugins, and packfile-based content addressing
+
+[**Get started with Spacewave →**][spacewave]
+
+[spacewave]: https://github.com/s4wave/spacewave
 
 ## [ocpipe]
 
