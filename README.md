@@ -75,7 +75,7 @@ application on the stack with [the project template]!
 
 [controllerbus]: https://github.com/aperturerobotics/controllerbus
 [bifrost]: https://github.com/aperturerobotics/bifrost
-[goscript]: https://github.com/aperturerobotics/goscript
+[goscript]: https://github.com/s4wave/goscript
 [ocpipe-link]: https://github.com/s4wave/ocpipe
 
 ### <img src="https://raw.githubusercontent.com/skiffos/SkiffOS/master/resources/images/skiff-icon.png" alt="SkiffOS logo" width="28" height="28" style="vertical-align: bottom"/> SkiffOS
